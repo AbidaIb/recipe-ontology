@@ -1,0 +1,4201 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hammad/ontologies/2021/2RecipeOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hammad/ontologies/2021/2RecipeOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/hammad/ontologies/2021/2RecipeOntology"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="ex" IRI="http://example.org/"/>
+    <Prefix name="vs" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="wot" IRI="http://xmlns.com/wot/0.1/"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="https://schema.org/"/>
+    <Prefix name="RecipeOntology" IRI="http://www.semanticweb.org/hammad/ontologies/2021/2RecipeOntology#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">undefined</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">undefined</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R2SzFUgOgiPSj8COklIRQd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R4uJS3y7l1HYXLGYN8jwfM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R5YxPmijdycvDnXGIyRsth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R79zw5OwY1yhK6vGtpjdQVs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7ajZzS7FyZ0QA60AxmYLRE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7hnoNI5gzE9gDY7Wc3nSI9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7nAJVSeDzpQf16M10Nbi1a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7sAeG15jLs1MwruucoTVin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R80bGANSCRkBKsm27FkHkmd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R84iOJAA4pT2xsXcRNy9nvc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8FOHO3tzH1b4rf3HNzKDbu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8OU2sDK9OVDQO7sbGGPiVt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8xr3paPTszFynSXbm74Yi8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9FBL7WbvMy9se5t8Jbi0Vj"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9HBR4nbl3oRpoiiBQkKAR9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9OOvk2n4BZRbdCMLn9mAMK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9YSLcit78HUtDkYVx8QcrO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9i7Ay4aXa2qu2dLWKdiAuu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBFSqo6FpMc3HzRu6IkoVKp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBPry2FAoXDIpaNWYFPw9Ur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBXoKbfpbt6hESr6dA1Aya1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBnwaqMX532yHIfaNiSolsl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC5wYNii5MUtR1yzbRG6kaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCEBPlS4DZwFbcgUTJ4g8B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCJzEp6JnVW6PjEffmF97oR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCO8ifwdEMpODP7sbuCBZnW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCWUWq3BoGb8L38qCLqvqlX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCozbiQ8XxzpKqw8V4NuRH3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCxM3jjQIm2wo7szLpJwCKI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RD0CsNZHpv8x5a3rov4uUFg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDBPqg44zVDSQBwteO3Ul4p"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDG47FcBjJd4XsOb3KfEAh1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDIvkjwlrK4dXT5FGxzt40k"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDKbwl9JlAorR0uCCjEedTn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDKmoSGkTawss0YzVAr68RE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDLtp7As8Qa1GZEfvEgrsmr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDQVX6SKVLF2OyDKxbkKiHG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDjsEU7HuKVqPrD2KFynpzT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RHxvhIM6eG4WlZ62SUfn5Y"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RSSYXHTQFpGXxwbDOurnir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RjlGTbeL9NAA8D9E1fPcXU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rjpkv8zIe8PXKfkUODXHC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RnSvJcEK8M87o6LiMuTHuD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rr1Bykx0bgYmU8waLHwY75"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RuGzA0NBHo1u0yL8Xo1zU4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookingEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DifficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngredientType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MainIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MealType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrepTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantityOfFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecipeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecipeCuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecipeType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalTime"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:AggregateRating"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:NutritionInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCookTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredientQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredientType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMainIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMealType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutritionContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutritionalInformation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrepTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRecipeCuisine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRecipeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSideIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubstitute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTotalTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includedInInstuction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofFoodProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofFoodQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofNutritionQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofNutritionType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produceQuantityOfFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedInRecipe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:aggregateRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:author"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:cookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:hasRecipeInstructions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:recipeIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:recipeYield"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:tool"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chillTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cookTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#difficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIngredientName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prepTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:image"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:ratingCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:recipeInstructions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:reviewCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:url"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advance_easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adventures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#American"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Appetizers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Austrian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beverages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biscuits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blend_and_Pour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blend_and_stir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blend_and_strain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boiling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breads"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#British"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broiling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burners"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calcium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaloriesFromFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canning_funnel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carbohydrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carrefour_Maroc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chinese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cholesterol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chutney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comforting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Condiment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cookie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cooking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cooking_Spoons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Couscous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cupcake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DIY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dairy_free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deep_Frying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desserts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DietaryFiber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Difficult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_kitchen_scale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drinks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eggless_Bakes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Essentials"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#European"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Expert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Facile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FatCalories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FiberCarbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Freezing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#German"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gluten_Free_Recipes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gluten_free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gravy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Griddles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grilling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heavy-duty_blender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Holiday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Homemade_Ingredients"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ice_cream_disher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ice_cream_maker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Immersion_blender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indochinese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intermediate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International_Recipes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KFC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kettles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiri_Maroc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Layer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnessium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main_Course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main_Courses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main_Dishes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexican"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miscellaneous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MonoUnSaturatedFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moroccan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moyen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muddle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muddle_and_Pour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muffin_tin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muffins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Cook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Non_Vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noodles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_too_tricky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ovens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panini_press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panzani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pasta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pastry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peruvian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pesto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pickles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poaching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolyUnSaturatedFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poultry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pour_and_Flame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pour_and_stir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Probe_thermometer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quick_and_Easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Read_the_instructions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recipes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roasting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rolls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salads"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandwiches"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaturatedFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sauteing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shake_and_Pour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shake_and_strain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Showing_off"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Side_Dish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silpat_baking_mat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simmering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slow_cooker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soups"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_African"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spanish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Special_Dietary_Needs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steamed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steaming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stick_lighter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stir_and_strain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SugarCarbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swiss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tajines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TexMex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thanksgiving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiffin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tips"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Top_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TotalCarbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TotalFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnsaturatedFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegetable_Cutters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegetables"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegetarian_Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_easy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminB9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitaminK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zinc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#digital_instant-read_thermometer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dutch_oven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food_processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sheet_pan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skillet_or_griddle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stock_pot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4_to_5_quart_cast-iron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9_1/2_to_10_inch_tart_pan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Candy/fry_thermometer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rim,_Shake_and_Strain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scones_&amp;_Muffins"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R2SzFUgOgiPSj8COklIRQd"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R4uJS3y7l1HYXLGYN8jwfM"/>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R5YxPmijdycvDnXGIyRsth"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R79zw5OwY1yhK6vGtpjdQVs"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7ajZzS7FyZ0QA60AxmYLRE"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7hnoNI5gzE9gDY7Wc3nSI9"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7nAJVSeDzpQf16M10Nbi1a"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7sAeG15jLs1MwruucoTVin"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI"/>
+        <Class IRI="http://webprotege.stanford.edu/RCozbiQ8XxzpKqw8V4NuRH3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R80bGANSCRkBKsm27FkHkmd"/>
+        <Class IRI="Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R84iOJAA4pT2xsXcRNy9nvc"/>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8FOHO3tzH1b4rf3HNzKDbu"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8OU2sDK9OVDQO7sbGGPiVt"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8xr3paPTszFynSXbm74Yi8"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9FBL7WbvMy9se5t8Jbi0Vj"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9HBR4nbl3oRpoiiBQkKAR9"/>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9OOvk2n4BZRbdCMLn9mAMK"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9YSLcit78HUtDkYVx8QcrO"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9i7Ay4aXa2qu2dLWKdiAuu"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBFSqo6FpMc3HzRu6IkoVKp"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBPry2FAoXDIpaNWYFPw9Ur"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBXoKbfpbt6hESr6dA1Aya1"/>
+        <Class IRI="http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBnwaqMX532yHIfaNiSolsl"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC5wYNii5MUtR1yzbRG6kaq"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCEBPlS4DZwFbcgUTJ4g8B"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCJzEp6JnVW6PjEffmF97oR"/>
+        <Class IRI="Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCO8ifwdEMpODP7sbuCBZnW"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCWUWq3BoGb8L38qCLqvqlX"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCozbiQ8XxzpKqw8V4NuRH3"/>
+        <Class IRI="http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCxM3jjQIm2wo7szLpJwCKI"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RD0CsNZHpv8x5a3rov4uUFg"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDBPqg44zVDSQBwteO3Ul4p"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDG47FcBjJd4XsOb3KfEAh1"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDIvkjwlrK4dXT5FGxzt40k"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDKbwl9JlAorR0uCCjEedTn"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDKmoSGkTawss0YzVAr68RE"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDLtp7As8Qa1GZEfvEgrsmr"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDQVX6SKVLF2OyDKxbkKiHG"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+        <Class IRI="http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDjsEU7HuKVqPrD2KFynpzT"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+        <Class IRI="http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RHxvhIM6eG4WlZ62SUfn5Y"/>
+        <Class IRI="http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RSSYXHTQFpGXxwbDOurnir"/>
+        <Class IRI="http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb"/>
+        <Class IRI="#IngredientType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RjlGTbeL9NAA8D9E1fPcXU"/>
+        <Class IRI="http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rjpkv8zIe8PXKfkUODXHC2"/>
+        <Class IRI="http://webprotege.stanford.edu/RCozbiQ8XxzpKqw8V4NuRH3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RnSvJcEK8M87o6LiMuTHuD"/>
+        <Class IRI="http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rr1Bykx0bgYmU8waLHwY75"/>
+        <Class IRI="http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RuGzA0NBHo1u0yL8Xo1zU4"/>
+        <Class IRI="http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meat"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ajZzS7FyZ0QA60AxmYLRE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CookTime"/>
+        <Class abbreviatedIRI="schema:Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CookingMethod"/>
+        <Class IRI="#DifficultyLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodProduct"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MainIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MealType"/>
+        <Class IRI="#RecipeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrepTime"/>
+        <Class abbreviatedIRI="schema:Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecipeCuisine"/>
+        <Class IRI="#RecipeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecipeType"/>
+        <Class IRI="#RecipeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SideIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalTime"/>
+        <Class abbreviatedIRI="schema:Time"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Advance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Advance_easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Adventures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Appetizers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Asian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Australian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Austrian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Baking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Beverages"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Biscuits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Blend_and_Pour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Blend_and_stir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Blend_and_strain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Boiling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Breads"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#British"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Broiling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Brunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Burger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Burners"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Cake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Calcium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#CaloriesFromFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Canning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Canning_funnel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Carbohydrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Carbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Carrefour_Maroc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Chinese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Cholesterol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Chutney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Comforting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Condiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Cookie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Cooking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Cooking_Spoons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Couscous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Cupcake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#DIY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Dairy_free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Deep_Frying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Desserts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#DietaryFiber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Difficult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Digital_kitchen_scale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Dinner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Drinks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Eggless_Bakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Entree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Essentials"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#European"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Expert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Facile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Fall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Fat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#FatCalories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#FiberCarbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Finish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Freezing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Fusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#German"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Gluten_Free_Recipes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Gluten_free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Gravy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Greek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Griddles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Grill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Grilling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Hard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Healthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Heavy-duty_blender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Holiday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Homemade_Ingredients"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Ice_cream_disher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Ice_cream_maker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Immersion_blender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Indochinese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#International_Recipes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Italian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#KFC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Kettles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Kiri_Maroc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Latin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Layer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Lunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Magnessium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Main"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Main_Course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Main_Courses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Main_Dishes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Meat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Mexican"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Miscellaneous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#MonoUnSaturatedFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Moony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Moroccan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Moyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Muddle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Muddle_and_Pour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Muffin_tin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Muffins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#No_Cook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Non_Vegetarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Noodles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Not_too_tricky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Ovens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Panini_press"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Pans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Panzani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Pasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Pastry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Peruvian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Pesto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Phosphorus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Pickles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Poaching"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#PolyUnSaturatedFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Potassium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Poultry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Pour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Pour_and_Flame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Pour_and_stir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Probe_thermometer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Protien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Quick_and_Easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Read_the_instructions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Recipes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Relish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Roasting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Rolls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Salads"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Sandwich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Sandwiches"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#SaturatedFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Sauteing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Serving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Shake_and_Pour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Shake_and_strain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Showing_off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Side_Dish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Silpat_baking_mat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Simmering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Slow_cooker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Snack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Sodium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Soups"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#South_African"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Spanish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Special_Dietary_Needs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Steamed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Steaming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Stick_lighter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Stir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Stir_and_strain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#SugarCarbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Super_easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Supper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Sweets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#Swiss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Tajines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeCuisine"/>
+        <NamedIndividual IRI="#TexMex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Thanksgiving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Tiffin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Tips"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Top_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#TotalCarbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#TotalFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#TransFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#UnsaturatedFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Vegetable_Cutters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Vegetables"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Vegetarian_Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifficultyLevel"/>
+        <NamedIndividual IRI="#Very_easy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminB9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#VitaminK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutritionType"/>
+        <NamedIndividual IRI="#Zinc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#digital_instant-read_thermometer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#dutch_oven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#food_processor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#sheet_pan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#skillet_or_griddle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#stock_pot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#4_to_5_quart_cast-iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#9_1/2_to_10_inch_tart_pan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingEquipment"/>
+        <NamedIndividual IRI="#Candy/fry_thermometer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Rim,_Shake_and_Strain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RecipeType"/>
+        <NamedIndividual IRI="#Scones_&amp;_Muffins"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIngredientQuantity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIngredientType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMainIngredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMealType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNutritionContent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNutritionalInformation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRecipeCuisine"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRecipeType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSideIngredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubstitute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTotalTime"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includedInInstuction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesIngredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofFoodProduct"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofFoodQuantity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofNutritionQuantity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofNutritionType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#produceQuantityOfFood"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usedInRecipe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:aggregateRating"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:author"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:cookingMethod"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:hasRecipeInstructions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:recipeIngredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:recipeYield"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="schema:tool"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#usedInRecipe"/>
+        <ObjectProperty abbreviatedIRI="schema:recipeIngredient"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSubstitute"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCookTime"/>
+        <Class IRI="#TotalTime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredientQuantity"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredientType"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMainIngredient"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutritionContent"/>
+        <Class abbreviatedIRI="schema:NutritionInformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutritionalInformation"/>
+        <Class IRI="#FoodProduct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrepTime"/>
+        <Class IRI="#TotalTime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecipeCuisine"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecipeType"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSideIngredient"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubstitute"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTotalTime"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includedInInstuction"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesIngredient"/>
+        <Class IRI="#Instruction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofFoodProduct"/>
+        <Class IRI="#QuantityOfFood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofFoodQuantity"/>
+        <Class IRI="#QuantityOfFood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofNutritionQuantity"/>
+        <Class IRI="#NutritionContent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofNutritionType"/>
+        <Class IRI="#NutritionContent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produceQuantityOfFood"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedInRecipe"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:aggregateRating"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:author"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:cookingMethod"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:hasRecipeInstructions"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:recipeIngredient"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:recipeYield"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:tool"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCookTime"/>
+        <Class IRI="#CookTime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+        <Class IRI="#DifficultyLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredientQuantity"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredientType"/>
+        <Class IRI="#IngredientType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMainIngredient"/>
+        <Class IRI="#MainIngredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class IRI="#MealType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutritionContent"/>
+        <Class IRI="#NutritionContent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutritionalInformation"/>
+        <Class abbreviatedIRI="schema:NutritionInformation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrepTime"/>
+        <Class IRI="#PrepTime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecipeCuisine"/>
+        <Class IRI="#RecipeCuisine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecipeType"/>
+        <Class IRI="#RecipeType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSideIngredient"/>
+        <Class IRI="#SideIngredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubstitute"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTotalTime"/>
+        <Class IRI="#TotalTime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includedInInstuction"/>
+        <Class IRI="#Instruction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includesIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofFoodProduct"/>
+        <Class IRI="#FoodProduct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofFoodQuantity"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofNutritionQuantity"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofNutritionType"/>
+        <Class IRI="#NutritionType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produceQuantityOfFood"/>
+        <Class IRI="#QuantityOfFood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedInRecipe"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:aggregateRating"/>
+        <Class abbreviatedIRI="schema:AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:author"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:cookingMethod"/>
+        <Class IRI="#CookingMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:hasRecipeInstructions"/>
+        <Class IRI="#Instruction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:recipeIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:recipeYield"/>
+        <Class IRI="#FoodProduct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:tool"/>
+        <Class IRI="#CookingEquipment"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chillTime"/>
+        <Class IRI="#CookTime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cookTime"/>
+        <Class IRI="#CookTime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#difficultyLevel"/>
+        <Class IRI="#DifficultyLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIngredientName"/>
+        <Class IRI="#Ingredient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasURL"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUnit"/>
+        <Class IRI="#Quantity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#Quantity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prepTime"/>
+        <Class IRI="#PrepTime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:image"/>
+        <Class abbreviatedIRI="schema:Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:ratingCount"/>
+        <Class abbreviatedIRI="schema:AggregateRating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:recipeInstructions"/>
+        <Class IRI="#Instruction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:reviewCount"/>
+        <Class abbreviatedIRI="schema:AggregateRating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <Class IRI="#Source"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#chillTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cookTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#difficultyLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIngredientName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasURL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prepTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:image"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:ratingCount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:recipeInstructions"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:reviewCount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R2SzFUgOgiPSj8COklIRQd</IRI>
+        <Literal xml:lang="en">FoodAdditives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R4uJS3y7l1HYXLGYN8jwfM</IRI>
+        <Literal xml:lang="en">Ghee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R5YxPmijdycvDnXGIyRsth</IRI>
+        <Literal xml:lang="en">CannedFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R79zw5OwY1yhK6vGtpjdQVs</IRI>
+        <Literal xml:lang="en">Roe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7ajZzS7FyZ0QA60AxmYLRE</IRI>
+        <Literal xml:lang="en">Animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7hnoNI5gzE9gDY7Wc3nSI9</IRI>
+        <Literal xml:lang="en">Pie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7nAJVSeDzpQf16M10Nbi1a</IRI>
+        <Literal xml:lang="en">Berry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7sAeG15jLs1MwruucoTVin</IRI>
+        <Literal xml:lang="en">Pome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7vZPkXwy4HL951cdhtvTnI</IRI>
+        <Literal xml:lang="en">FreshSeed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R80bGANSCRkBKsm27FkHkmd</IRI>
+        <Literal xml:lang="en">WhiteMeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R84iOJAA4pT2xsXcRNy9nvc</IRI>
+        <Literal xml:lang="en">CookingOil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8FOHO3tzH1b4rf3HNzKDbu</IRI>
+        <Literal xml:lang="en">CitrusFruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8OU2sDK9OVDQO7sbGGPiVt</IRI>
+        <Literal xml:lang="en">FleshyWateryFruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8R54okgsbrtDRM2UeEzn7B</IRI>
+        <Literal xml:lang="en">SeaFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8xr3paPTszFynSXbm74Yi8</IRI>
+        <Literal xml:lang="en">DryFruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9FBL7WbvMy9se5t8Jbi0Vj</IRI>
+        <Literal xml:lang="en">Root&amp;TuberousVegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9HBR4nbl3oRpoiiBQkKAR9</IRI>
+        <Literal xml:lang="en">Others</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9OOvk2n4BZRbdCMLn9mAMK</IRI>
+        <Literal xml:lang="en">Tunicate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9YSLcit78HUtDkYVx8QcrO</IRI>
+        <Literal xml:lang="en">EdibleFlowers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9cr5aBiBaU0kFN4xKMCCBX</IRI>
+        <Literal xml:lang="en">BakedFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9i7Ay4aXa2qu2dLWKdiAuu</IRI>
+        <Literal xml:lang="en">Drupe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBFSqo6FpMc3HzRu6IkoVKp</IRI>
+        <Literal xml:lang="en">PoddedVegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBPry2FAoXDIpaNWYFPw9Ur</IRI>
+        <Literal xml:lang="en">Brownie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBXoKbfpbt6hESr6dA1Aya1</IRI>
+        <Literal xml:lang="en">Legume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBnwaqMX532yHIfaNiSolsl</IRI>
+        <Literal xml:lang="en">SeaVegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC5wYNii5MUtR1yzbRG6kaq</IRI>
+        <Literal xml:lang="en">LeafyVegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCEBPlS4DZwFbcgUTJ4g8B</IRI>
+        <Literal xml:lang="en">Cake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCJzEp6JnVW6PjEffmF97oR</IRI>
+        <Literal xml:lang="en">RedMeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCO8ifwdEMpODP7sbuCBZnW</IRI>
+        <Literal xml:lang="en">Medusozoa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCWUWq3BoGb8L38qCLqvqlX</IRI>
+        <Literal xml:lang="en">Cookies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCozbiQ8XxzpKqw8V4NuRH3</IRI>
+        <Literal xml:lang="en">Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCxM3jjQIm2wo7szLpJwCKI</IRI>
+        <Literal xml:lang="en">Tarte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD0CsNZHpv8x5a3rov4uUFg</IRI>
+        <Literal xml:lang="en">Pastry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDBPqg44zVDSQBwteO3Ul4p</IRI>
+        <Literal xml:lang="en">Fish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDBjzWVd8VFyZreRtho1ezk</IRI>
+        <Literal xml:lang="en">Plant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDG47FcBjJd4XsOb3KfEAh1</IRI>
+        <Literal xml:lang="en">FrozenFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDIvkjwlrK4dXT5FGxzt40k</IRI>
+        <Literal xml:lang="en">Torte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDKbwl9JlAorR0uCCjEedTn</IRI>
+        <Literal xml:lang="en">Cracker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDKmoSGkTawss0YzVAr68RE</IRI>
+        <Literal xml:lang="en">MultipleFruits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDLtp7As8Qa1GZEfvEgrsmr</IRI>
+        <Literal xml:lang="en">ShellFish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDQVX6SKVLF2OyDKxbkKiHG</IRI>
+        <Literal xml:lang="en">Biscuit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDUJKV84db5BA6kBVaLKgZn</IRI>
+        <Literal xml:lang="en">Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDjsEU7HuKVqPrD2KFynpzT</IRI>
+        <Literal xml:lang="en">Bulb&amp;StemVegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/REmf9W6g6MSVfFwQthEExN</IRI>
+        <Literal xml:lang="en">Vegetable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RHxvhIM6eG4WlZ62SUfn5Y</IRI>
+        <Literal xml:lang="en">Bread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RSSYXHTQFpGXxwbDOurnir</IRI>
+        <Literal xml:lang="en">Echinoderm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RdZT9DCpDo7M4EPIqBcipb</IRI>
+        <Literal xml:lang="en">Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RjlGTbeL9NAA8D9E1fPcXU</IRI>
+        <Literal xml:lang="en">DriedVegetable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rjpkv8zIe8PXKfkUODXHC2</IRI>
+        <Literal xml:lang="en">DriedSeed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RnSvJcEK8M87o6LiMuTHuD</IRI>
+        <Literal xml:lang="en">Cereal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rr1Bykx0bgYmU8waLHwY75</IRI>
+        <Literal xml:lang="en">Pseudocereal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RuGzA0NBHo1u0yL8Xo1zU4</IRI>
+        <Literal xml:lang="en">Capsules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Meat</IRI>
+        <Literal xml:lang="en">Meat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#American</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://edition.cnn.com/travel/article/american-food-dishes/index.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Appetizers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.allrecipes.com/recipes/76/appetizers-and-snacks/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.allrecipes.com/recipes/227/world-cuisine/asian/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Australian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://edition.cnn.com/travel/article/australian-food/index.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Austrian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://traveltriangle.com/blog/austrian-food/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Baking</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Baking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beverages</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Drink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Biscuits</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Biscuit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blend_and_Pour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://wikidiff.com/pour/blend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blend_and_stir</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://hinative.com/en-US/questions/15179766#:~:text=mix%20it%20thoroughly.-,To%20blend%20id%20to%20mix%20a%20substance,so%20that%20they%20combine%20together.&amp;text=Both%20are%20forms%20of%20mixing,a%20blender%20(kitchen%20appliance).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blend_and_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://ikes.com/indica-sativa-or-blend-tips-for-marijuana-newbies/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Boiling</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Boiling#:~:text=Boiling%20is%20the%20rapid%20vaporization,liquid%20by%20the%20surrounding%20atmosphere.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Breads</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Bread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Breakfast</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Breakfast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#British</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/British_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Broiling</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/topic/broiling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Brunch</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Brunch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burger</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Hamburger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burners</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.industrialheating.com/articles/91706-types-of-burners-and-combustion-systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Calcium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nof.org/patients/treatment/calciumvitamin-d/#:~:text=Calcium%20is%20a%20mineral%20that,in%20our%20bones%20and%20teeth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Calories</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Calorie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaloriesFromFat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Canning</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Canning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Canning_funnel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.healthycanning.com/funnels-for-home-canning/#:~:text=Canning%20funnels%20are%20funnels%20specially,food%20properly%20into%20the%20jars.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Carbohydrate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Carbohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chinese</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chinese_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chocolate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cholesterol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://my.clevelandclinic.org/health/articles/11920-cholesterol-numbers-what-do-they-mean#:~:text=Cholesterol%20is%20a%20waxy%20type,foods%20that%20come%20from%20animals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chutney</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chutney</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comforting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Condiment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CookTime</IRI>
+        <Literal>Cooktime contains the cook time as well as the chill time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CookTime</IRI>
+        <Literal xml:lang="iri-based">CookTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cookie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cookie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CookingEquipment</IRI>
+        <Literal xml:lang="iri-based">CookingEquipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CookingMethod</IRI>
+        <Literal xml:lang="iri-based">CookingMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cooking_Spoons</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.shopperspk.com/category/kitchen/cookware/cooking-utensils/cooking-spoons-in-pakistan/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Couscous</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Couscous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cupcake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cupcake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DIY</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Do_it_yourself</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dairy_free</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.godairyfree.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deep_Frying</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Deep_frying</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Desserts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dessert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DietaryFiber</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dietary_fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DifficultyLevel</IRI>
+        <Literal>Difficulty Level specifies the overall difficulty of the recipe as either beginner level, novice or advanced level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DifficultyLevel</IRI>
+        <Literal xml:lang="iri-based">DifficultyLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Digital_kitchen_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.daraz.pk/kitchen-scales1/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dinner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dinner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drinks</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Alcoholic_drink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eggless_Bakes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.spiceupthecurry.com/category/baked-recipes/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Entree</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Entr%C3%A9e</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Essentials</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://food.unl.edu/article/basic-foods-checklist-how-stock-your-kitchen-simple-meals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#European</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/European_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Facile</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.merriam-webster.com/dictionary/facile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fall</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://inspiredbycharm.com/favorite-fall-foods-fall-recipes/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FatCalories</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fiber</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FiberCarbs</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Finish</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://lifehacker.com/what-it-means-to-finish-a-dish-1797691879</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="iri-based">Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoodProduct</IRI>
+        <Literal>Food Product specifies the food item yield by following the recipe instructions, it further explains the nuteritional information of the item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoodProduct</IRI>
+        <Literal xml:lang="iri-based">FoodProduct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Freezing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Frozen_food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#French</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/French_cuisine#:~:text=French%20cuisine%20(French%3A%20Cuisine%20fran%C3%A7aise,traditions%20and%20practices%20from%20France.&amp;text=In%20the%2017th%20century%2C%20chefs,developed%20France&apos;s%20own%20indigenous%20style.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fusion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fusion_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#German</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/German_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gluten_Free_Recipes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://celiac.org/gluten-free-living/gluten-free-foods/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gluten_free</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://celiac.org/gluten-free-living/gluten-free-foods/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gravy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Gravy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Greek</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Greek_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Griddles</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Griddle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grill</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Grilling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grilling</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Grilling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Healthy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Healthy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.medicalnewstoday.com/articles/245259</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heavy-duty_blender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.olx.com.pk/items/q-commercial-blender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Holiday</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.foodnetwork.com/holidays-and-parties/packages/holidays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homemade_Ingredients</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.biggerbolderbaking.com/homemade-ingredients/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ice_cream_disher</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Winco-ICD-20-Disher-Plastic-Handle/dp/B0018LI99Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ice_cream_maker</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Cuisinart-ICE-21-Quart-Frozen-Yogurt-Ice/dp/B003KYSLMW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Immersion_blender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/best-immersion-blender/s?k=best+immersion+blender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Indian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Indian_cuisine#:~:text=Staple%20foods%20of%20Indian%20cuisine,or%20dhuli%20urad%E2%80%94or%20split.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Indochinese</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Indian_Chinese_cuisine#:~:text=Chinese%20Indian%20food%20is%20generally,familiar%20to%20the%20Indian%20tongue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ingredient</IRI>
+        <Literal xml:lang="iri-based">Ingredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IngredientType</IRI>
+        <Literal xml:lang="iri-based">IngredientType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Instruction</IRI>
+        <Literal xml:lang="iri-based">Instruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#International_Recipes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Global_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Iron</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webmd.com/diet/iron-rich-foods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Italian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Italian_cuisine#:~:text=Traditional%20Central%20Italian%20cuisine%20uses,sauce%20(including%20game%20meat).&amp;text=Italian%20cuisine%20is%20also%20well,a%20diverse%20variety%20of%20pasta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KFC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.kfc.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kettles</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.daraz.pk/kettles/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kiri_Maroc</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.facebook.com/KiriMaroc/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Latin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Latin_American_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Layer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pinterest.com/a0938/food-layers/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lunch</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Lunch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magnessium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Magnesium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MainIngredient</IRI>
+        <Literal xml:lang="iri-based">MainIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_Course</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Main_course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_Courses</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Main_course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_Dishes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Main_course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MealType</IRI>
+        <Literal xml:lang="iri-based">MealType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Meat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mexican</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Mexican_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Miscellaneous</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fokainternational.com/en/miscellaneous-food-products/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MonoUnSaturatedFat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moony</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.facebook.com/moonyfood/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moroccan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Moroccan_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moyen</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.merriam-webster.com/dictionary/moyen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muddle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thekitchn.com/technique-muddling-52628#:~:text=To%20muddle%20means%20to%20press,the%20glass%20with%20a%20muddler.&amp;text=Muddling%20helps%20to%20release%20the,such%20as%20mint%20and%20basil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muddle_and_Pour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thekitchn.com/technique-muddling-52628#:~:text=To%20muddle%20means%20to%20press,the%20glass%20with%20a%20muddler.&amp;text=Muddling%20helps%20to%20release%20the,such%20as%20mint%20and%20basil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muffin_tin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?sxsrf=ALeKk01jftc4hQS-C8CY88Pm3D6BPzwjCQ:1627487685215&amp;q=Muffin+tin&amp;stick=H4sIAAAAAAAAAONgecS4iZFb4OWPe8JSKxgnrTl5jXEhIxdXcEZ-uWteSWZJpZAuFxuUxSvFzcWpn6tvkJRWkhJvJMLFq5-ub2iYVVBkkJ1UkCTw8O0MRqVgI_ddl6adY3MUZAACHvMQBylNLSEuds9in_zkxBzBxbo_9s_oe2evJczFEZJYkZ-Xn1spqMbCwHD-_3t7JU5OoKYFjza9t9diaNq34hAbCwejAEMQP9SqtNzKoqyMjCKeRaxcvqVpaZl5CiWZeQDSt_YbxQAAAA&amp;sa=X&amp;ved=2ahUKEwior-mKkIbyAhUICRoKHYiTABwQ6RN6BAgyEAE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muffins</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Muffin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#No_Cook</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.marthastewart.com/275742/no-bake-desserts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Vegetarian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Non-vegetarian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Noodles</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Noodle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NutritionContent</IRI>
+        <Literal xml:lang="iri-based">NutritionContent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NutritionType</IRI>
+        <Literal xml:lang="iri-based">NutritionType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ovens</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Oven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Panini_press</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Hamilton-Beach-25460A-Sandwich-Stainless/dp/B00IWOJRSM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pans</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webstaurantstore.com/guide/501/types-of-cookware.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Panzani</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.panzani.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pasta</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pastry</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Pastry#:~:text=Pastry%20is%20a%20dough%20of,may%20be%20savoury%20or%20sweetened.&amp;text=Pastry%20dough%20is%20rolled%20out,a%20flaky%20or%20crumbly%20texture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="iri-based">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Peruvian</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Peruvian_cuisine#:~:text=Peruvian%20cuisine%20is%20often%20made,varieties%20of%20preparation%20and%20dishes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pesto</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Pesto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phosphorus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Phosphorus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pickles</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pickles.com.au/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Poaching</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Poaching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PolyUnSaturatedFat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Polyunsaturated_fatty_acid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Potassium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Potassium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Poultry</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Poultry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrepTime</IRI>
+        <Literal>Preptime specifies the time taking preparing for the ingredients before cooking. Also known as, Pre-cooking time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrepTime</IRI>
+        <Literal xml:lang="iri-based">PrepTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Probe_thermometer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wechu.org/food-safety/how-use-probe-thermometer#:~:text=A%20probe%20thermometer%20is%20a,different%20types%20of%20probe%20thermometers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Protien</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quantity</IRI>
+        <Literal xml:lang="iri-based">Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QuantityOfFood</IRI>
+        <Literal xml:lang="iri-based">QuantityOfFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quick_and_Easy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.countryliving.com/food-drinks/g648/quick-easy-dinner-recipes/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecipeClassification</IRI>
+        <Literal>Recipe classification specifies whether this is a vegetarian recipe or non-vegetarian recipe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecipeClassification</IRI>
+        <Literal xml:lang="iri-based">RecipeClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecipeCuisine</IRI>
+        <Literal xml:lang="iri-based">RecipeCuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecipeType</IRI>
+        <Literal xml:lang="iri-based">RecipeType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Relish</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Relish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Roasting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Roasting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rolls</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.allrecipes.com/recipe/215378/classic-dinner-rolls/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Salads</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Salad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sandwich</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Sandwich</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sandwiches</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Sandwich</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SaturatedFat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Saturated_fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sauteing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Saut%C3%A9ing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Serving</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.niddk.nih.gov/health-information/weight-management/just-enough-food-portions#:~:text=A%20serving%2C%20or%20serving%20size,numbers%E2%80%94such%20as%20three%20crackers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shake_and_Pour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.bettycrocker.com/products/bisquick/shake-and-pour-buttermilk-pancake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shake_and_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mixolopedia.com/glossary/shake-and-strain/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Side</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Side_dish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SideIngredient</IRI>
+        <Literal xml:lang="iri-based">SideIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Side_Dish</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Side_dish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Silpat_baking_mat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Silpat-Premium-Non-Stick-Silicone-Baking/dp/B00008T960</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Simmering</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Simmering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Slow_cooker</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Slow_cooker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Snack</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Snack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sodium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ucsfhealth.org/education/guidelines-for-a-low-sodium-diet#:~:text=Sodium%20is%20found%20naturally%20in,canned%2C%20processed%20and%20convenience%20foods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Soups</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Soup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Source</IRI>
+        <Literal>Source contains the informations about the instance, from where the recipe data was collected. The URL to the webpage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Source</IRI>
+        <Literal xml:lang="iri-based">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#South_African</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/South_African_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spanish</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Spanish_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Special_Dietary_Needs</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.eatfirst.com/en-au/c/blog/the-ultimate-guide-to-special-diet-catering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Steamed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Steaming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Steaming</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Steaming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stick_lighter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/stick-lighter/s?k=stick+lighter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stir</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.recipetips.com/glossary-term/t--34629/stir.asp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stir_and_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.recipetips.com/glossary-term/t--34629/stir.asp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sugar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SugarCarbs</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Supper</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Supper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sweets</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://cakesandbakes.com/product/category/sweets-idx-66</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Swiss</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Swiss_cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tajines</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tajine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TexMex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tex-Mex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thanksgiving</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Thanksgiving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tiffin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tiffin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalTime</IRI>
+        <Literal>Total time of the recipe is a combination of the prep time and the cooking time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TotalTime</IRI>
+        <Literal xml:lang="iri-based">TotalTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TransFat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Trans_fat_regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.healthline.com/health/food-nutrition/saturated-vs-unsaturated-fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegetable_Cutters</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Veggie-Chopper/s?k=Veggie+Chopper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegetables</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Vegetable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegetarian_Food</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Vegetable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webmd.com/vitamins/ai/ingredientmono-965/thiamine-vitamin-b1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB12</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webmd.com/diet/vitamin-b12-deficiency-symptoms-causes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Riboflavin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Niacin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Vitamin_B6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminB9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Folate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webmd.com/diet/features/the-benefits-of-vitamin-c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminE</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.webmd.com/vitamins/ai/ingredientmono-954/vitamin-e</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VitaminK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Vitamin_K</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zinc</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Zinc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chillTime</IRI>
+        <Literal xml:lang="iri-based">chillTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cookTime</IRI>
+        <Literal xml:lang="iri-based">cookTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#difficultyLevel</IRI>
+        <Literal xml:lang="iri-based">difficultyLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#digital_instant-read_thermometer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Best-Sellers-Kitchen-Dining-Instant-Read-Thermometers-Timers/zgbs/kitchen/289809</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dutch_oven</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dutch_oven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#email</IRI>
+        <Literal xml:lang="iri-based">email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#food_processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://homeshopping.pk/categories/Food-Processor-Price-In-Pakistan/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCookTime</IRI>
+        <Literal xml:lang="iri-based">hasCookTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDifficultyLevel</IRI>
+        <Literal xml:lang="iri-based">hasDifficultyLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasIngredientName</IRI>
+        <Literal xml:lang="iri-based">hasIngredientName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasIngredientQuantity</IRI>
+        <Literal xml:lang="iri-based">hasIngredientQuantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasIngredientType</IRI>
+        <Literal xml:lang="iri-based">hasIngredientType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMainIngredient</IRI>
+        <Literal xml:lang="iri-based">hasMainIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMealType</IRI>
+        <Literal xml:lang="iri-based">hasMealType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNutritionContent</IRI>
+        <Literal xml:lang="iri-based">hasNutritionContent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNutritionalInformation</IRI>
+        <Literal xml:lang="iri-based">hasNutritionalInformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPrepTime</IRI>
+        <Literal xml:lang="iri-based">hasPrepTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRecipeCuisine</IRI>
+        <Literal xml:lang="iri-based">hasRecipeCuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRecipeType</IRI>
+        <Literal xml:lang="iri-based">hasRecipeType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSideIngredient</IRI>
+        <Literal xml:lang="iri-based">hasSideIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSubstitute</IRI>
+        <Literal xml:lang="iri-based">hasSubstitute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTitle</IRI>
+        <Literal xml:lang="iri-based">hasTitle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTotalTime</IRI>
+        <Literal xml:lang="iri-based">hasTotalTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasURL</IRI>
+        <Literal xml:lang="iri-based">hasURL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasUnit</IRI>
+        <Literal xml:lang="iri-based">hasUnit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasValue</IRI>
+        <Literal xml:lang="iri-based">hasValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#includedInInstuction</IRI>
+        <Literal xml:lang="iri-based">includedInInstuction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#includesIngredient</IRI>
+        <Literal xml:lang="iri-based">includesIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ofFoodProduct</IRI>
+        <Literal xml:lang="iri-based">ofFoodProduct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ofFoodQuantity</IRI>
+        <Literal xml:lang="iri-based">ofFoodQuantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ofNutritionQuantity</IRI>
+        <Literal xml:lang="iri-based">ofNutritionQuantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ofNutritionType</IRI>
+        <Literal xml:lang="iri-based">ofNutritionType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#prepTime</IRI>
+        <Literal xml:lang="iri-based">prepTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#produceQuantityOfFood</IRI>
+        <Literal xml:lang="iri-based">produceQuantityOfFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sheet_pan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?sxsrf=ALeKk03XgCEjSh2oBus7dRpNEjX7Ksrr8w:1627490687032&amp;q=Baking+Sheet&amp;stick=H4sIAAAAAAAAAONgecS4mZFb4OWPe8JSKxknrTl5jXERIxdXcEZ-uWteSWZJpZAeFxuUxSfFw8Wln6tvYGSWUlFcZCTCxaufrm9omFVQZJCdVJAk8PDtDEalYCP3XZemnWNzFGQAAh7zEAcpTS0hLnbPYp_85MQcwRl_fj9_17rNXkuYiyMksSI_Lz-3UjDs03_76__f2ytxcgI1JWh8fm-vxdC0b8UhNhYORgGGIH6oVWm5lUVZGRlFPItYeZwSszPz0hWCM1JTSwCoGlVKyAAAAA&amp;sa=X&amp;ved=2ahUKEwiT9Zmim4byAhWQyYUKHTnuDsYQ6RN6BAgxEAE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#skillet_or_griddle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.potsandpans.in/blogs/articles/griddle-v-skillet#:~:text=Difference%20in%20shape%20and%20size,marks%2Flines%20on%20the%20food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stock_pot</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?sxsrf=ALeKk03xduKr4q71uDMuVeMyBuF8ITOcFg:1627491062173&amp;q=Stock+pot&amp;stick=H4sIAAAAAAAAAONgecS4hZFb4OWPe8JSqxgnrTl5jXExIxdXcEZ-uWteSWZJpZA-FxuUxS_Fy8Wtn65vaGSQXZJsUmkkwsUL4hpmFRQZZCcVJAk8fDuDUSnYyH3XpWnn2BwFGYCAxzzEQUpTS4iL3bPYJz85MUdwd8LWeIF17-y1hLk4QhIr8vPycysFmRUZDlz6995eiZMTqOlBz6H39loMTftWHGJj4WAUYAjih1qVlltZlJWRUcSziJUzuCQ_OVuhIL8EAJXsFePGAAAA&amp;sa=X&amp;ved=2ahUKEwih5YrVnIbyAhVBxIUKHfUACaYQ6RN6BAgwEAE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#usedInRecipe</IRI>
+        <Literal xml:lang="iri-based">usedInRecipe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wasDerivedFrom</IRI>
+        <Literal xml:lang="iri-based">wasDerivedFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Candy/fry_thermometer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amazon.com/Taylor-Precision-Products-Stainless-Thermometer/dp/B00004XSC9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Scones_&amp;_Muffins</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.epicurious.com/recipes-menus/our-best-muffin-and-scone-recipes-gallery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topDataProperty</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">topDataProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">topObjectProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:AggregateRating</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">AggregateRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:NutritionInformation</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">NutritionInformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:Recipe</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">Recipe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:Time</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:aggregateRating</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">aggregateRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:author</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:cookingMethod</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">cookingMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:hasRecipeInstructions</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">hasRecipeInstructions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:image</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:name</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:ratingCount</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">ratingCount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:recipeIngredient</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">recipeIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:recipeInstructions</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">recipeInstructions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:recipeYield</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">recipeYield</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:reviewCount</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">reviewCount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:tool</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:url</AbbreviatedIRI>
+        <Literal xml:lang="iri-based">url</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
