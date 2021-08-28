@@ -13,9 +13,11 @@ https://protege.stanford.edu/ </li>
 
 
 <h5>Here are few screenshots to make you familiar with the software.</h5>
-1. To visualize your ontology, you need to install a plugin in protégé which can be found here
-http://vowl.visualdataweb.org/protegevowl.html
-1. Download it and put inside plugins folder of your protégé software main directory/folder.
-1. Restart protégé and after opening the ontology go to Window -> Tabs -> VOWL
+<ul>
+  <li>
+To visualize your ontology, you need to install a plugin in protégé which can be found here
+http://vowl.visualdataweb.org/protegevowl.html </li>
+<li>Download it and put inside plugins folder of your protégé software main directory/folder. </li>
+<li>Restart protégé and after opening the ontology go to Window -> Tabs -> VOWL </li>
 
 
