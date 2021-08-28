@@ -13,6 +13,6 @@ https://protege.stanford.edu/ </li>
 
 
 <h5>Here are few screenshots to make you familiar with the software.</h5>
-![class](https://user-images.githubusercontent.com/45661804/131224561-0cdd1698-dfaf-4b45-8d40-af24a5be6c83.jpeg)
+![class](images/class.jpeg)
 
 
