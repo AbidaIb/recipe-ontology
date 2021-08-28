@@ -13,6 +13,9 @@ https://protege.stanford.edu/ </li>
 
 
 <h5>Here are few screenshots to make you familiar with the software.</h5>
-![class](images/class.jpeg)
-![](https://github.com/AbidaIb/recipe-ontology/issues/3#issue-981877944)
+1. To visualize your ontology, you need to install a plugin in protégé which can be found here
+http://vowl.visualdataweb.org/protegevowl.html
+1. Download it and put inside plugins folder of your protégé software main directory/folder.
+1. Restart protégé and after opening the ontology go to Window -> Tabs -> VOWL
+
 
