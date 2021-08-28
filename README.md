@@ -14,5 +14,5 @@ https://protege.stanford.edu/ </li>
 
 <h5>Here are few screenshots to make you familiar with the software.</h5>
 ![class](images/class.jpeg)
-
+![](https://github.com/AbidaIb/recipe-ontology/issues/3#issue-981877944)
 
