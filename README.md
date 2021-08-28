@@ -12,7 +12,7 @@ https://protege.stanford.edu/ </li>
  </ul>
 
 
-<h5>Here are few screenshots to make you familiar with the software.</h5>
+<h5>Here are some instructions you can follow along.</h5>
 <ul>
   <li>
 To visualize your ontology, you need to install a plugin in protégé which can be found here
